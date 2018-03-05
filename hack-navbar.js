@@ -1,14 +1,15 @@
+const hamMenu = document.querySelector(".ham-menu");
+const navBar = document.getElementById("#navbar");
+const mobileMenu = document.querySelector(".mobile-menu");
+
 // Attach on click handler for hamburger menu
 // test that click listener is working
-const hamMenu = document.querySelector(".ham-menu");
-const navBar = document.getElementById()
+
 hamMenu.addEventListener("click", function(){
+	
+	// test event listener
 	console.log("ham-menu clicked!");
 
-	// add shadow to navbar
-
+	// toggle mobile menu on click
+	mobileMenu.style.display = mobileMenu.style.display === "none" ? "block" : "none";
 });
-
-// we want to toggle the mobile menu when the
-// hamburger menu is clicked
-
