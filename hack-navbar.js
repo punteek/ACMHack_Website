@@ -1,12 +1,10 @@
 const hamMenu = document.querySelector(".ham-menu");
-const navBar = document.getElementById("#navbar");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 // Attach on click handler for hamburger menu
 // test that click listener is working
 
 hamMenu.addEventListener("click", function(){
-	
 	// test event listener
 	console.log("ham-menu clicked!");
 
