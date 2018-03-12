@@ -36,14 +36,6 @@
 	justify-content: flex-end;
 }
 
-/*.desktop-only {
-
-}*/
-
-#logo-hack {
-	/*margin-left: 126px;*/
-}
-
 #hack-wordmark {
 	margin-left: 10px;
 }
@@ -115,8 +107,6 @@
 }
 
 /* styling for mobile menu */
-
-
 
 #mobile-menu-container {
 	display: flex;
